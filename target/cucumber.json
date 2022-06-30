@@ -1,0 +1,86 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2945155700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundStepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "White Background",
+        "description": "",
+        "id": "set-white-background-button-functionality-validation;white-background",
+        "after": [
+          {
+            "result": {
+              "duration": 789586700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 202600900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Set White Background button exists",
+            "match": {
+              "location": "BackgroundStepDefinition.Set_White_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56621900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the White Background button",
+            "match": {
+              "location": "BackgroundStepDefinition.i_click_on_the_White_Background_dbutton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35513000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The background color will change to white",
+            "match": {
+              "location": "BackgroundStepDefinition.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Set White Background Button Functionality Validation",
+    "description": "",
+    "id": "set-white-background-button-functionality-validation",
+    "keyword": "Feature",
+    "uri": "features/WhiteBackground.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@WhiteBackgroundFeature"
+      }
+    ]
+  }
+]
