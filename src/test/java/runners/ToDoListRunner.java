@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features="classpath:features",
 		glue="steps",
-		tags="@WhiteBackgroundFeature",
+		tags="@SkybluBackgroundFeature",
 		monochrome= true,
 		dryRun = false,
 		plugin= {
